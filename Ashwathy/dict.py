@@ -1,0 +1,13 @@
+d={'country':'India','price':120,'veg':'potato'}
+print(d)
+print(d['veg'])
+d.update({'price':122002})
+print(d)
+d.update({'cli':'summer'})
+print(d)
+a=d.copy()
+print(a)
+b=d.keys()
+print(b)
+c=d.values()
+print(c)
